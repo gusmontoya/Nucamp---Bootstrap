@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Review Form</title>
+    <link rel="stylesheet" href="css/styles2.css" />
+</head>
+
+<body bgcolor="#009900">
+    <h1>Review Our Campsites Here</h1>
+    <h2>Which Campsite Would You Like to Review?</h2>
+    <form>
+        <div>
+            <label for="campsite">Campsite</label>
+            <select id="campsite" name="campsite">
+                <option value="breadcrumb-trail">Breadcrumb Trail Campsite</option>
+                <option value="react-lake">React Lake Campsite</option>
+                <option value="chrome-river">Chrome River Campsite</option>
+            </select>
+        </div>
+        <div>
+            <label for="rating">How Would You Rate This Campsite?</label><br>
+            <input type="radio" id="loved-it" name="campsite" value="loved-it">
+            <label for="loved-it">Loved It!</label><br>
+            <input type="radio" id="liked-it" name="campsite" value="liked-it">
+            <label for="liked-it">Liked It.</label><br>
+            <input type="radio" id="better" name="campsite" value="better">
+            <label for="better">Could Have Been Better.</label><br>
+            <input type="radio" id="bad" name="campsite" value="bad">
+            <label for="bad">Bad experience.</label><br>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
